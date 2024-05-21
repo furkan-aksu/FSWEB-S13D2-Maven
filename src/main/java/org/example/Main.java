@@ -6,7 +6,6 @@ public class Main {
 
     }
 
-
     public static boolean isPalindrome(int number) {
 
         if (number < 0) {
@@ -35,6 +34,7 @@ public class Main {
             if (number % i == 0) {
                 sum += i;
             }
+
         }
 
         return sum == number;
@@ -92,7 +92,6 @@ public class Main {
 
         System.out.println();
     }
-
     public static int reverse(int number) {
         int reversed = 0;
         while (number != 0) {
@@ -102,8 +101,6 @@ public class Main {
         }
         return reversed;
     }
-
-
     public static int getDigitCount(int number) {
         if (number == 0) {
             return 1;
